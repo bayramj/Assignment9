@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 9</title>
+	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+	<h1>Our Favorite Halloween Characters</h1>
+	<h2>Press keyboard numbers to see them on dark, scary colours </h2>
+	<div id="image-container">
+		<div class="actor">
+			<img id="krueger" src="images/freddy.png" alt="freddy krueger"> 
+		</div>
+		<div class="actor">
+			<img id="scream" src="images/scream.png" alt="scream character"> 
+		</div>
+		<div class="actor">
+			<img id="myers" src="images/myers.png" alt="michael myers"> 
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+
+		var color=0;
+		var alpha=0.0;
+
+		document.addEventListener("keypress", function(event){
+			console.log(event);
+
+
+			var divs= document.getElementsByClassName("actor");
+
+
+			for(var i=0; i<divs.length; i++){
+				divs[i].style.background='hsl('+color+',10%,40%)';
+				color +=2;
+			}
+	});
+	</script>
+	
+	</body>
+</html>

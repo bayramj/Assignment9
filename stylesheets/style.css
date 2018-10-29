@@ -1,0 +1,53 @@
+body {
+	background-image: url('../images/halloween.jpeg');
+}
+h1{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+
+}
+h2{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+
+}
+#image-container{
+	display:flex;
+	justify-content: center;
+}
+.actor{
+	width: 350px;
+	height: 350px;
+	margin-top:50px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#krueger {
+	width: 150px;
+	height: 200px;
+	margin-top:50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+#scream {
+	width: 150px;
+	height: 200px;
+	margin-top:50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+#myers {
+	width: 150px;
+	height: 200px;
+	margin-top:50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
